@@ -1,0 +1,39 @@
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# ─── Generated at runtime ─────────────────────────────────────────────────────
+# Keras model checkpoint (re-generated when you run the notebook)
+best_model.h5
+
+# Intermediate EDA export (re-generated when you run the notebook)
+eda.csv
+
+# ─── Publish / thesis materials ───────────────────────────────────────────────
+Publish Material/
+*.docx
+thesis.txt
+main.py
+web_scraping.py
+
+# ─── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
