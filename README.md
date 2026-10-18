@@ -1,7 +1,6 @@
 # Stock Index Price Prediction Using Sentiment Analysis
 
-> **MSc Data Science Dissertation** — University of Nottingham, November 2024  
-> **Author:** Muhammed Razi Abdul Shukoor
+r
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
@@ -14,11 +13,11 @@
 
 ## 📖 Executive Summary
 
-This repository contains the complete codebase and findings of my master's thesis, which investigates whether integrating **financial news sentiment** into a deep learning model can improve the prediction accuracy of the **Dow Jones Industrial Average (DJIA)** closing price.
+This repository contains the complete codebase and findings of a project investigating whether integrating **financial news sentiment** into deep learning models can improve the prediction accuracy of the **Dow Jones Industrial Average (DJIA)** closing price.
 
-By combining traditional DJIA market data with **volume-weighted sentiment scores** derived from over 24,000 scraped financial headlines, this project demonstrates a significant improvement in predictive performance over baseline models. An **LSTM neural network** trained on the combined feature set reduced Test Root Mean Square Error (RMSE) by **~25%** and improved Test R² from **0.93 to 0.96**. 
+By combining historical DJIA market data with **volume-weighted sentiment scores** derived from over 24,000 scraped financial headlines, the project demonstrates a significant improvement in predictive performance over baseline models. An **LSTM neural network** trained on the combined feature set reduced Test Root Mean Square Error (RMSE) by **~25%** and improved Test R² from **0.93 to 0.96**.
 
-Furthermore, the sentiment-enhanced model demonstrated superior convergence stability, effectively escaping the shallow local minima that plagued the baseline model.
+Furthermore, the sentiment-enhanced model demonstrated superior convergence stability, overcoming the shallow local minima encountered by the baseline model.
 
 ---
 
