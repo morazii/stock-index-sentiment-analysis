@@ -1,7 +1,5 @@
 # Stock Index Price Prediction Using Sentiment Analysis
 
-r
-
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/TensorFlow-Keras-orange.svg" alt="TensorFlow">
